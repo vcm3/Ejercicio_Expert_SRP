@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Program
+namespace SRP
 {
     public class Libro
     {
