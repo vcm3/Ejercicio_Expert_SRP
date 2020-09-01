@@ -17,6 +17,6 @@ especifícamente se nos pide que hagamos mantenimiento de la funcionalidad de co
 Se pide que critique el código dado en base a SRP
 
 #### ✍ Parte 2
-2. Aplique SRP según su crítica.
+Aplique SRP según su crítica.
 
 
