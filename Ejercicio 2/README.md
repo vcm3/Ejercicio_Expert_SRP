@@ -20,4 +20,4 @@ más de una línea de código
 ```
 
 ## Parte 2
-Realiza todas las modificaciones que creas necesarias para que el código cumpla con el patrón SRP y has entrega del código en la tarea correspondiente de Webasignatura.
+Realiza todas las modificaciones que creas necesarias para que el código cumpla con el patrón SRP y haz entrega del código en la tarea correspondiente de Webasignatura.
