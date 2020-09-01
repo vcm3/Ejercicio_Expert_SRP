@@ -12,5 +12,8 @@ Para ello Debemos tener en cuenta que:
 3. La consulta debe tener un identificador único
 4. Cada dato que se ingrese al sistema debe ser válidado.
 
+✍ Ejercicio:
+ 1. Critique en base a SRP
+ 2. Aplique SRP según su crítica.
 
 
