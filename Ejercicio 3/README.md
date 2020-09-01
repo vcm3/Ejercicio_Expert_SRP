@@ -1,4 +1,4 @@
-![UCU](../../Assets/logo-ucu.png)
+![UCU](../Assets/logo-ucu.png)
 # Programación II
 ## FIT - Universidad Católica del Uruguay
 
