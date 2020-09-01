@@ -1,4 +1,5 @@
 using System;
+using Alfajor;
 
 namespace Expert_SRP
 {
@@ -6,7 +7,7 @@ namespace Expert_SRP
     {
         public Boolean PuedeComprar(Alfajor a, Double dinero, String moneda) 
         {
-            Double pesos = ConvertirAPesos(dinero, moneda);
+            Double pesos = Alfajor.ConvertirAPesos(dinero, moneda);
             return pesos >= a.PrecioDulce + a.PrecioMasa;
         }
         
