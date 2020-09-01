@@ -5,6 +5,10 @@ namespace Library
 {
     public class AppointmentService
     {
+
+        //La clase se ocupa de todos los datos del paciente, del doctor, del id, y de validarlos
+        //Para que quede separado correctamente, podrían separarse en más clases, una con datos del paciente, del doctor, y de la consulta
+
         public static string CreateAppointment(string name, string id, string phoneNumber, DateTime date, string appoinmentPlace, string doctorName)
         {
             StringBuilder stringBuilder = new StringBuilder("Scheduling appointment...\n");
