@@ -1,18 +1,26 @@
 ﻿using System;
 using System.Text;
+using Doctor;
+using Patient;
 
 namespace Library
 {
     public class AppointmentService
     {
         private int appointmentId;
-        public static string CreateAppointment(Doctor doctor, Pacient pacient, DateTime date, string appoinmentPlace)
+        public static string CreateAppointment(Doctor doctor, Patient pacient, DateTime date, string appoinmentPlace)
         {
             StringBuilder stringBuilder = new StringBuilder("Scheduling appointment...\n");
             Boolean isValid = true;
 
-            if (doctor = null || pacient = null || date = null)
+            if (doctor != null && pacient != null)
             {
+                isValid = false;
+            }
+
+            if (date != null)
+            {
+                stringBuilder.Append("Unable to schedule appointment, Appoinment date is required\n");
                 isValid = false;
             }
 

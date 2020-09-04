@@ -12,7 +12,7 @@ namespace Expert_SRP
         public Double PrecioDulce {get;set;}
         public Double PrecioMasa {get; set;}
 
-        private Double ConvertirAPesos(Double dinero, String moneda)
+        public Double ConvertirAPesos(Double dinero, String moneda)
         {
             if (moneda.Equals("U$S")) 
             {

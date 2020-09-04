@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Library
 {
-    public class Pacient
+    public class Patient
     {
         public void Pacient(string name, string id, string phoneNumber, string age)
         {
@@ -35,10 +35,10 @@ namespace Library
 
             if (isValid)
             {
-                PacientName = name;
-                PhoneNumber = phoneNumber;
-                Age = age;
-                Id = id;
+                this.PacientName = name;
+                this.PhoneNumber = phoneNumber;
+                this.Age = age;
+                this.Id = id;
             }
 
         }

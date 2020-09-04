@@ -3,9 +3,9 @@ using System.Text;
 
 namespace Library
 {
-    public class Pacient
+    public class Doctor
     {
-        public void Pacient(string name, string speciallity)
+        public void Doctor(string name, string speciallity)
         {
             Boolean isValid = true;
             
@@ -23,8 +23,8 @@ namespace Library
 
             if (isValid)
             {
-                DoctorName = name;
-                Speciallity = speciallity;
+                this.DoctorName = name;
+                this.Speciallity = speciallity;
             }
 
         }
