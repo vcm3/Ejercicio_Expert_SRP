@@ -1,4 +1,5 @@
 ﻿using System;
+using Logica;
 
 namespace Ejercicio4
 {
@@ -6,13 +7,13 @@ namespace Ejercicio4
     {
         static void Main(string[] args)
         {
-            bool[,] b; //variable que representa el tablero
-            int width; //variabe que representa el ancho del tablero
-            int height; //variabe que representa altura del tablero
+            bool[,] gameBoard; //variable que representa el tablero
+            int boardWidth; //variabe que representa el ancho del tablero
+            int boardHeight; //variabe que representa altura del tablero
             while (true)
             {
                 Console.Clear();
-                StringBuilder s = new StringBuilder();
+                Text.StringBuilder s = new Text.StringBuilder();
                 for (int y = 0; y<height;y++)
                 {
                     for (int x = 0; x<width; x++)
@@ -32,7 +33,7 @@ namespace Ejercicio4
                 //=================================================
                 //Invocar método para calcular siguiente generación
                 //=================================================
-                Thread.Sleep(300);
+                Threading.Sleep(300);
             }
         }
     }
